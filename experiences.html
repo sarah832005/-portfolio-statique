@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Remix icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+        <!-- Swiper Slider CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+        
+<!-- Typed JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+
+
+<style>
+    .education_container, .experience_container {
+    display: none; /* Hide by default */
+}
+.active {
+    display: block; /* Show active section */
+}
+.education_btn button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+    .education_btn button.active_btn {
+    background-color: #cdbece;
+    color: #fff;
+}
+
+
+</style>
+
+-
+<!-- Swiper Slider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+    </head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Images/name.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experiences.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="bars">
+            <i class="ri-menu-2-fill"></i>
+        </div>
+    </nav>
+
+
+<section class="education_experience">
+    <img src="images/about-shape-1.png" alt="" class="achieve_shape achieve_shape1">
+    <img src="images/about-shape-2.png" alt="" class="achieve_shape achieve_shape2">
+    <img src="images/about-shape-3.png" alt="" class="achieve_shape achieve_shape3">
+
+    <div class="headings">
+        <h1>What I <span>Achieve</span></h1>
+        <div class="anim_line_box"></div>
+    </div>
+    <div class="EducationBtn">
+        <button class="education" onclick="showSection('education')">Education</button>
+        <button class="experience" onclick="showSection('experience')">Experience</button>
+    </div>
+    
+    <div id="education" class="education_container">
+        <div class="education_left">
+
+            <div class="education_box  ">
+           
+            <h2>Baccalaureate (2023)<span>Science Field</span></h2>
+            <p>Achieved with an average score of 12.75 in the science field.</p>
+
+            </div>
+        
+            <div class="education_box   ">
+            <h2>2nd Year of University<span>Esprit School of Business</span></h2>
+            <p>Pursuing a Licentiate degree in Business Computing at Esprit School of Business.</p>
+        </div>
+        <div class="education_box  ">
+            <h2>Public Speaking Certification<span>OpenClassrooms</span></h2>
+            <p>Acquired skills in public speaking and effective communication techniques.</p>
+        </div>
+        <div class="education_box   ">
+            <h2>Human Resources Certification<span>OpenClassrooms</span></h2>
+            <p>Learned about the fundamentals of human resources management.</p>
+        </div>
+        <div class="education_box  ">
+            <h2>Learning to Learn Certification<span>OpenClassrooms</span></h2>
+            <p>Mastered strategies for effective learning and skill acquisition.</p>
+        </div>
+        <div class="education_box   ">
+            <h2>Inbound Marketing Certification<span>HubSpot</span></h2>
+            <p>Gained insights into inbound marketing techniques and strategies.</p>
+        </div>
+        </div>
+    </div>
+ 
+    <div id="experience" class="experience_container">
+        <div class="experience_right">
+            <div class="experience_box  ">
+            <h2>BAL of Projects<span> Data Manipulation</span></h2>
+            <p>Organized and contributed to the BAL of projects focusing on integrated data manipulation using Python.</p>
+        </div>
+        <div class="experience_box   ">
+            <h2>Excel Project<span> French Enterprise</span></h2>
+            <p>Worked on data analysis and reporting tasks using Microsoft Excel for a French enterprise.</p>
+        </div>
+        <div class="experience_box  ">
+            <h2>Event Organizing <span>ESB Committee</span></h2>
+            <p>Contributed to organizing events as part of the Esprit School of Business committee.</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer_container">
+        <!-- Logo and Description -->
+       
+
+        <!-- Navigation Links -->
+        <div class="footer_links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer_socials">
+            <h3>Follow Me</h3>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/share/14vgR97jwk/?mibextid=kFxxJD" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.linkedin.com/in/sarah-mahmoudi-815b8b231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvuBNtlEKSguoj7YMrqJiIA%3D%3D" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="#" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="#" target="_blank"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer_copyright">
+        <p>&copy; 2024 Sarah Mahmoudi. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Typed JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+
+    <!-- Swiper Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+
+    
+    
+</body>
+</html>
