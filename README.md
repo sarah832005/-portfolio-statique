@@ -1,4 +1,4 @@
-# -portfolio-statique
+# portfolio-statique
 ## 🎯 Objectif du projet
 
 Ce projet est un **portfolio statique** développé en **HTML5, CSS3 et JavaScript**.
